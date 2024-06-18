@@ -2,6 +2,7 @@ package com.akirachix.fibonacciseries
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.akirachix.fibonacciseries.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -29,4 +30,3 @@ class MainActivity : AppCompatActivity() {
         return numbers
     }
     }
-}
